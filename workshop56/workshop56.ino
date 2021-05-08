@@ -17,6 +17,7 @@ void setup()
 {
     pinMode(TMP, INPUT); // Temperature analog pin
 
+    pinMode(PIR, INPUT); // PIR input
     pinMode(ECHO, INPUT); // Input echo from HC-SR0
     pinMode(TRIGGER, OUTPUT); // Output trigger from HC-SR0
     digitalWrite(TRIGGER, LOW);
