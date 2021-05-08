@@ -74,7 +74,7 @@ void loop()
 
                     if (registerPhoto == 0)
                     {
-                        Serial.print("person in");
+                        Serial.println("person in");
                         delay(250);
 
                         closeServo();
