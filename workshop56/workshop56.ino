@@ -46,7 +46,7 @@ void loop()
 
     if (pirState == 1)
     {
-        writeRGBColor(255, 255, 0); // Red flag
+        writeRGBColor(255, 255, 0); // Yellow flag
         Serial.println("person detected");
 
         float distance;
